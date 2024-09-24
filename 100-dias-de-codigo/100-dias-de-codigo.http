@@ -1,0 +1,6 @@
+@_100_dias_de_codigo_HostAddress = http://localhost:5017
+
+GET {{_100_dias_de_codigo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
