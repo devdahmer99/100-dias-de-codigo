@@ -57,7 +57,6 @@ namespace _100_dias_de_codigo.Controllers;
             }
             await _filmesContext.SaveChangesAsync();
 
-
             return StatusCode(404, "Nenhum filme encontrado!");
         }
 
