@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# SYSLIB0023: O tipo ou membro é obsoleto
+dotnet_diagnostic.SYSLIB0023.severity = silent
+
+# CS8604: Possível argumento de referência nula.
+dotnet_diagnostic.CS8604.severity = none

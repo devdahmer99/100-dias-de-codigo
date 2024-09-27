@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace _100_dias_de_codigo.Controllers;
 
+[Route("api/[controller]")]
 [ApiController]
-[Route("[controller]")]
-    public class FilmesController : ControllerBase
+public class FilmesController : ControllerBase
     {
         private readonly FilmesContext _filmesContext;
 
